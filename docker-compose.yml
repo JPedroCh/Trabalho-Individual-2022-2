@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+
+  mongo_db:
+    image: mongo
+    container_name: mongo_db
+    env_file:
+      - metabase/config/mongo_exemple.env
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data/mongo_db:/data/db
+
+     

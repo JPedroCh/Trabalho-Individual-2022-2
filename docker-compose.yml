@@ -39,8 +39,8 @@ services:
       dockerfile: Dockerfile
     container_name: name
     volumes:
-      - ./src:/app/
+      - ./pynalytics:/app/
 
 networks:
   default:
-    name: net
+    name: pynalytics

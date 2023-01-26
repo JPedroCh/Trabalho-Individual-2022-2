@@ -9,6 +9,6 @@ RUN pip install -r /tmp/requirements.txt
 
 WORKDIR /app
 
-COPY ./src /app/
+COPY ./pynalytics /app/
 
 ENTRYPOINT ["python", "main.py"]

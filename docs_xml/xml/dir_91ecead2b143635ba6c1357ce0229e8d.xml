@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_91ecead2b143635ba6c1357ce0229e8d" kind="dir">
+    <compoundname>pynalytics/parser</compoundname>
+    <innerfile refid="d0/d9e/parser_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="d1/d38/const_8py">const.py</innerfile>
+    <innerfile refid="d1/d2e/feature__engineering__parser_8py">feature_engineering_parser.py</innerfile>
+    <innerfile refid="d5/d3f/model__parser_8py">model_parser.py</innerfile>
+    <innerfile refid="d9/d61/parser__base_8py">parser_base.py</innerfile>
+    <innerfile refid="d1/d63/_y_a_m_l__parser_8py">YAML_parser.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="pynalytics/parser/"/>
+  </compounddef>
+</doxygen>

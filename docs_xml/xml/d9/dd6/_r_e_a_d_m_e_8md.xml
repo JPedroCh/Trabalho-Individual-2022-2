@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="d9/dd6/_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Trabalho<sp/>individual<sp/>de<sp/>GCES<sp/>2022-2</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Pynalytics</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/>A<sp/>biblioteca<sp/>desenvolvida<sp/>auxilia<sp/>desenvolvedores<sp/>a<sp/>explorar<sp/>os<sp/>dados<sp/>com<sp/>funções<sp/>essenciais<sp/>para<sp/>a<sp/>identificação<sp/>de<sp/>outliers<sp/>e<sp/>anomalias<sp/>e<sp/>uma<sp/>interface<sp/>que<sp/>auxilia<sp/>a<sp/>visualizar<sp/>as<sp/>informações<sp/>de<sp/>acordo<sp/>com<sp/>o<sp/>arquivo<sp/>de<sp/>configuração.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/>A<sp/>biblioteca<sp/>recebe<sp/>um<sp/>arquivo<sp/>yaml<sp/>com<sp/>as<sp/>configurações<sp/>de<sp/>cada<sp/>etapa<sp/>do<sp/>pipeline<sp/>de<sp/>dados,<sp/>e<sp/>do<sp/>endereço<sp/>do<sp/>banco<sp/>de<sp/>dados.</highlight></codeline>
+<codeline><highlight class="normal"><sp/>Após<sp/>a<sp/>execução<sp/>do<sp/>banco<sp/>de<sp/>dados,<sp/>o<sp/>banco<sp/>de<sp/>dados<sp/>de<sp/>dados<sp/>é<sp/>atualizado<sp/>com<sp/>os<sp/>resultados<sp/>da<sp/>análise<sp/>e<sp/>os<sp/>resultados<sp/>podem<sp/>ser<sp/>visualizados<sp/>por<sp/>meio<sp/>de<sp/>dashboards<sp/>no<sp/>metabase.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Requisitos</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Python<sp/>3.9.7</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Poetry<sp/>1.3.2</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Docker</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline></codeline>
+    </programlisting>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

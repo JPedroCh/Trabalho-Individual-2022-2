@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_e0c0fb61d9d8d91f47822e16b41a1ea4" kind="dir">
+    <compoundname>pynalytics/data_pipeline</compoundname>
+    <innerdir refid="dir_8e0cacac1cf7ea61cc74f8df2c44fee5">pynalytics/data_pipeline/feature_engineering</innerdir>
+    <innerdir refid="dir_f57cfe8082474736db1c0d16514121b3">pynalytics/data_pipeline/pre_processing</innerdir>
+    <innerfile refid="db/d07/data__pipeline_2____init_____8py">__init__.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="pynalytics/data_pipeline/"/>
+  </compounddef>
+</doxygen>

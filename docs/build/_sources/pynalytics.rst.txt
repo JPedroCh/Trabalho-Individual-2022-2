@@ -1,0 +1,10 @@
+Pynalytics
+======================================
+
+.. toctree::
+   :maxDepth: 2
+
+.. autodoxygenindex::
+   :project: pynalytics
+
+

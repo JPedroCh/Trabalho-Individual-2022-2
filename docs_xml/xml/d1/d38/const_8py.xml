@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="d1/d38/const_8py" kind="file" language="Python">
+    <compoundname>const.py</compoundname>
+    <innernamespace refid="d0/dd5/namespaceparser">parser</innernamespace>
+    <innernamespace refid="d4/d03/namespaceparser_1_1const">parser::const</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="pynalytics/parser/const.py"/>
+  </compounddef>
+</doxygen>

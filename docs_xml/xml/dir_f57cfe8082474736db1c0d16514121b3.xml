@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_f57cfe8082474736db1c0d16514121b3" kind="dir">
+    <compoundname>pynalytics/data_pipeline/pre_processing</compoundname>
+    <innerfile refid="d7/ddc/data__pipeline_2pre__processing_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="d6/de3/concatenate__columns_8py">concatenate_columns.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="pynalytics/data_pipeline/pre_processing/"/>
+  </compounddef>
+</doxygen>

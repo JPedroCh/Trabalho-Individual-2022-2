@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="de/d24/classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser" kind="class" language="Python" prot="public">
+    <compoundname>parser::feature_engineering_parser::FeatureEngineeringParser</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ParserBase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d24/classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser_1a78e368c4f73492063d47b40497996ee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def parse</definition>
+        <argsstring>(self, list data)</argsstring>
+        <name>parse</name>
+        <qualifiedname>parser.feature_engineering_parser.FeatureEngineeringParser.parse</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>list</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pynalytics/parser/feature_engineering_parser.py" line="5" column="1" bodyfile="pynalytics/parser/feature_engineering_parser.py" bodystart="5" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="de/d24/classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser_1a1734cafedb6fb2afc3fa557181ec0014" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def _get_dataframe</definition>
+        <argsstring>(self, dict columns)</argsstring>
+        <name>_get_dataframe</name>
+        <qualifiedname>parser.feature_engineering_parser.FeatureEngineeringParser._get_dataframe</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>columns</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pynalytics/parser/feature_engineering_parser.py" line="39" column="1" bodyfile="pynalytics/parser/feature_engineering_parser.py" bodystart="39" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d24/classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser_1a74dc665fe34460887f50f9ad43a88af8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def _get_features_details</definition>
+        <argsstring>(self, dict features)</argsstring>
+        <name>_get_features_details</name>
+        <qualifiedname>parser.feature_engineering_parser.FeatureEngineeringParser._get_features_details</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>features</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pynalytics/parser/feature_engineering_parser.py" line="50" column="1" bodyfile="pynalytics/parser/feature_engineering_parser.py" bodystart="50" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d24/classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser_1afb0366e4b616539cdc77784f359963ce" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def _get_keyboard_smash_config</definition>
+        <argsstring>(self, dict features)</argsstring>
+        <name>_get_keyboard_smash_config</name>
+        <qualifiedname>parser.feature_engineering_parser.FeatureEngineeringParser._get_keyboard_smash_config</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>features</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pynalytics/parser/feature_engineering_parser.py" line="80" column="1" bodyfile="pynalytics/parser/feature_engineering_parser.py" bodystart="80" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d24/classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser_1a5339251780aad043a49c421c4b123bd7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def _get_word_embedding_config</definition>
+        <argsstring>(self, dict feature, list columns_alias)</argsstring>
+        <name>_get_word_embedding_config</name>
+        <qualifiedname>parser.feature_engineering_parser.FeatureEngineeringParser._get_word_embedding_config</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>feature</declname>
+        </param>
+        <param>
+          <type>list</type>
+          <declname>columns_alias</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pynalytics/parser/feature_engineering_parser.py" line="60" column="1" bodyfile="pynalytics/parser/feature_engineering_parser.py" bodystart="60" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d24/classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser_1a87dbe6bcc78c4bc4530eb86a43754721" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def _parse_feature_engineering_configs</definition>
+        <argsstring>(self, list data)</argsstring>
+        <name>_parse_feature_engineering_configs</name>
+        <qualifiedname>parser.feature_engineering_parser.FeatureEngineeringParser._parse_feature_engineering_configs</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>list</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pynalytics/parser/feature_engineering_parser.py" line="8" column="1" bodyfile="pynalytics/parser/feature_engineering_parser.py" bodystart="8" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="pynalytics/parser/feature_engineering_parser.py" line="3" column="1" bodyfile="pynalytics/parser/feature_engineering_parser.py" bodystart="3" bodyend="97"/>
+    <listofallmembers>
+      <member refid="de/d24/classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser_1a1734cafedb6fb2afc3fa557181ec0014" prot="protected" virt="non-virtual"><scope>parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>_get_dataframe</name></member>
+      <member refid="de/d24/classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser_1a74dc665fe34460887f50f9ad43a88af8" prot="protected" virt="non-virtual"><scope>parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>_get_features_details</name></member>
+      <member refid="de/d24/classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser_1afb0366e4b616539cdc77784f359963ce" prot="protected" virt="non-virtual"><scope>parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>_get_keyboard_smash_config</name></member>
+      <member refid="de/d24/classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser_1a5339251780aad043a49c421c4b123bd7" prot="protected" virt="non-virtual"><scope>parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>_get_word_embedding_config</name></member>
+      <member refid="de/d24/classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser_1a87dbe6bcc78c4bc4530eb86a43754721" prot="protected" virt="non-virtual"><scope>parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>_parse_feature_engineering_configs</name></member>
+      <member refid="de/d24/classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser_1a78e368c4f73492063d47b40497996ee4" prot="public" virt="non-virtual"><scope>parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>parse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

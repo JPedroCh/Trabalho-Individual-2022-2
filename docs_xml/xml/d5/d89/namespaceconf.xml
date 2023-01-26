@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="d5/d89/namespaceconf" kind="namespace" language="Python">
+    <compoundname>conf</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="d1/d3e/conf_8py_1a1937a86490fb99a263665267266cbe30" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str author</definition>
+        <argsstring></argsstring>
+        <name>author</name>
+        <qualifiedname>conf.author</qualifiedname>
+        <initializer>=  &apos;João Pedro Chaves&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="docs/source/conf.py" line="18" column="1" bodyfile="docs/source/conf.py" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d3e/conf_8py_1ac8e740e0be3b10c15b615ba12ed49d5d" prot="public" static="no" mutable="no">
+        <type>dict</type>
+        <definition>dict breathe_projects</definition>
+        <argsstring></argsstring>
+        <name>breathe_projects</name>
+        <qualifiedname>conf.breathe_projects</qualifiedname>
+        <initializer>=  { &quot;pynalytics&quot; : &quot;../../docs_xml/xml&quot;, }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="docs/source/conf.py" line="42" column="1" bodyfile="docs/source/conf.py" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d3e/conf_8py_1a95beca8dfcbc241e5f635f29943b85c2" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str copyright</definition>
+        <argsstring></argsstring>
+        <name>copyright</name>
+        <qualifiedname>conf.copyright</qualifiedname>
+        <initializer>=  &apos;2023, João Pedro Chaves&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="docs/source/conf.py" line="17" column="1" bodyfile="docs/source/conf.py" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d3e/conf_8py_1a16535c83d9b5c141382335d79b4995b2" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list exclude_patterns</definition>
+        <argsstring></argsstring>
+        <name>exclude_patterns</name>
+        <qualifiedname>conf.exclude_patterns</qualifiedname>
+        <initializer>=  [&apos;_build&apos;, &apos;Thumbs.db&apos;, &apos;.DS_Store&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="docs/source/conf.py" line="29" column="1" bodyfile="docs/source/conf.py" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d3e/conf_8py_1ac2adb9cb4fae2807baaf6a3fb59cbebb" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list extensions</definition>
+        <argsstring></argsstring>
+        <name>extensions</name>
+        <qualifiedname>conf.extensions</qualifiedname>
+        <initializer>=  [&apos;sphinx.ext.autodoc&apos;,
+    &apos;sphinx.ext.viewcode&apos;,&apos;breathe&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="docs/source/conf.py" line="24" column="1" bodyfile="docs/source/conf.py" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d3e/conf_8py_1a0a3ed65f01f948fea22a3928be863e0f" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list html_static_path</definition>
+        <argsstring></argsstring>
+        <name>html_static_path</name>
+        <qualifiedname>conf.html_static_path</qualifiedname>
+        <initializer>=  [&apos;../_static&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="docs/source/conf.py" line="40" column="1" bodyfile="docs/source/conf.py" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d3e/conf_8py_1a26cfd83a21ffea646eb66784379faab4" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str html_theme</definition>
+        <argsstring></argsstring>
+        <name>html_theme</name>
+        <qualifiedname>conf.html_theme</qualifiedname>
+        <initializer>=  &apos;alabaster&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="docs/source/conf.py" line="39" column="1" bodyfile="docs/source/conf.py" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d3e/conf_8py_1a71305985001f8a34611d9a4e7185f65f" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str project</definition>
+        <argsstring></argsstring>
+        <name>project</name>
+        <qualifiedname>conf.project</qualifiedname>
+        <initializer>=  &apos;Pynalytics&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="docs/source/conf.py" line="16" column="1" bodyfile="docs/source/conf.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d3e/conf_8py_1ac0fae1ab2ca6b5d6ee78891d5c10f8c5" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str release</definition>
+        <argsstring></argsstring>
+        <name>release</name>
+        <qualifiedname>conf.release</qualifiedname>
+        <initializer>=  &apos;0.1.0&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="docs/source/conf.py" line="19" column="1" bodyfile="docs/source/conf.py" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d3e/conf_8py_1a4e0cf47c16c33871f7a2cde5ec9dea17" prot="public" static="no" mutable="no">
+        <type>dict</type>
+        <definition>dict source_suffix</definition>
+        <argsstring></argsstring>
+        <name>source_suffix</name>
+        <qualifiedname>conf.source_suffix</qualifiedname>
+        <initializer>=  {
+    &quot;.rst&quot;: &quot;restructuredtext&quot;,
+    &quot;.md&quot;: &quot;markdown&quot;,
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="docs/source/conf.py" line="34" column="1" bodyfile="docs/source/conf.py" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d3e/conf_8py_1af5fc85fd05db5329f792629094fdd12c" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list templates_path</definition>
+        <argsstring></argsstring>
+        <name>templates_path</name>
+        <qualifiedname>conf.templates_path</qualifiedname>
+        <initializer>=  [&apos;_templates&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="docs/source/conf.py" line="28" column="1" bodyfile="docs/source/conf.py" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="docs/source/conf.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

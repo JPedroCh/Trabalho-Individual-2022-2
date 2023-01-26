@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="d9/ddb/key__smash_8py" kind="file" language="Python">
+    <compoundname>key_smash.py</compoundname>
+    <innerclass refid="db/d5f/classdata__pipeline_1_1feature__engineering_1_1key__smash_1_1_key_smash" prot="public">data_pipeline::feature_engineering::key_smash::KeySmash</innerclass>
+    <innernamespace refid="d9/d00/namespacedata__pipeline">data_pipeline</innernamespace>
+    <innernamespace refid="d8/dda/namespacedata__pipeline_1_1feature__engineering">data_pipeline::feature_engineering</innernamespace>
+    <innernamespace refid="d6/d7f/namespacedata__pipeline_1_1feature__engineering_1_1key__smash">data_pipeline::feature_engineering::key_smash</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="pynalytics/data_pipeline/feature_engineering/key_smash.py"/>
+  </compounddef>
+</doxygen>

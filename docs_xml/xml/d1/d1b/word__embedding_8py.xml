@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="d1/d1b/word__embedding_8py" kind="file" language="Python">
+    <compoundname>word_embedding.py</compoundname>
+    <innerclass refid="d8/d54/classdata__pipeline_1_1feature__engineering_1_1word__embedding_1_1_word_embedding" prot="public">data_pipeline::feature_engineering::word_embedding::WordEmbedding</innerclass>
+    <innernamespace refid="d9/d00/namespacedata__pipeline">data_pipeline</innernamespace>
+    <innernamespace refid="d8/dda/namespacedata__pipeline_1_1feature__engineering">data_pipeline::feature_engineering</innernamespace>
+    <innernamespace refid="d7/d39/namespacedata__pipeline_1_1feature__engineering_1_1word__embedding">data_pipeline::feature_engineering::word_embedding</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="pynalytics/data_pipeline/feature_engineering/word_embedding.py"/>
+  </compounddef>
+</doxygen>

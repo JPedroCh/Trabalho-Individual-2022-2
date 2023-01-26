@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dc/d70/classparser_1_1parser__base_1_1_parser_base" kind="class" language="Python" prot="public">
+    <compoundname>parser::parser_base::ParserBase</compoundname>
+    <derivedcompoundref refid="dc/de6/classparser_1_1_y_a_m_l__parser_1_1_y_a_m_l_parser" prot="public" virt="non-virtual">YAMLParser</derivedcompoundref>
+    <derivedcompoundref refid="de/d24/classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser" prot="public" virt="non-virtual">FeatureEngineeringParser</derivedcompoundref>
+    <derivedcompoundref refid="d9/d37/classparser_1_1model__parser_1_1_model_parser" prot="public" virt="non-virtual">ModelParser</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dc/d70/classparser_1_1parser__base_1_1_parser_base_1a03d872533f5f6255a26b393857fd90e9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>filepath</definition>
+        <argsstring></argsstring>
+        <name>filepath</name>
+        <qualifiedname>parser.parser_base.ParserBase.filepath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pynalytics/parser/parser_base.py" line="6" column="1" bodyfile="pynalytics/parser/parser_base.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d70/classparser_1_1parser__base_1_1_parser_base_1ac0aac6776633e4d561dd4ed0f61f5d56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def __init__</definition>
+        <argsstring>(self, filepath=&apos;src/yamls/config.yaml&apos;)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>parser.parser_base.ParserBase.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>filepath</type>
+          <defname>filepath</defname>
+          <defval>&apos;src/yamls/config.yaml&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pynalytics/parser/parser_base.py" line="5" column="1" bodyfile="pynalytics/parser/parser_base.py" bodystart="5" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="dc/d70/classparser_1_1parser__base_1_1_parser_base_1aa2b6edf217d0444fce5a7af07f7f3b89" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def _get</definition>
+        <argsstring>(self, dict variable, field, default_value)</argsstring>
+        <name>_get</name>
+        <qualifiedname>parser.parser_base.ParserBase._get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>variable</declname>
+        </param>
+        <param>
+          <type>field</type>
+          <defname>field</defname>
+        </param>
+        <param>
+          <type>default_value</type>
+          <defname>default_value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pynalytics/parser/parser_base.py" line="18" column="1" bodyfile="pynalytics/parser/parser_base.py" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d70/classparser_1_1parser__base_1_1_parser_base_1aa530d24c9649a57d117160a575c57d1c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def _try_get</definition>
+        <argsstring>(self, dict variable, field, error_msg=None)</argsstring>
+        <name>_try_get</name>
+        <qualifiedname>parser.parser_base.ParserBase._try_get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>variable</declname>
+        </param>
+        <param>
+          <type>field</type>
+          <defname>field</defname>
+        </param>
+        <param>
+          <type>error_msg</type>
+          <defname>error_msg</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pynalytics/parser/parser_base.py" line="8" column="1" bodyfile="pynalytics/parser/parser_base.py" bodystart="8" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="pynalytics/parser/parser_base.py" line="3" column="1" bodyfile="pynalytics/parser/parser_base.py" bodystart="3" bodyend="23"/>
+    <listofallmembers>
+      <member refid="dc/d70/classparser_1_1parser__base_1_1_parser_base_1ac0aac6776633e4d561dd4ed0f61f5d56" prot="public" virt="non-virtual"><scope>parser::parser_base::ParserBase</scope><name>__init__</name></member>
+      <member refid="dc/d70/classparser_1_1parser__base_1_1_parser_base_1aa2b6edf217d0444fce5a7af07f7f3b89" prot="protected" virt="non-virtual"><scope>parser::parser_base::ParserBase</scope><name>_get</name></member>
+      <member refid="dc/d70/classparser_1_1parser__base_1_1_parser_base_1aa530d24c9649a57d117160a575c57d1c" prot="protected" virt="non-virtual"><scope>parser::parser_base::ParserBase</scope><name>_try_get</name></member>
+      <member refid="dc/d70/classparser_1_1parser__base_1_1_parser_base_1a03d872533f5f6255a26b393857fd90e9" prot="public" virt="non-virtual"><scope>parser::parser_base::ParserBase</scope><name>filepath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

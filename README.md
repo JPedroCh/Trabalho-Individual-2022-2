@@ -9,7 +9,7 @@
 
 # Requisitos
 
-- Python 3.9.7
+- Python 3.9.16
 - Poetry 1.3.2
 - Docker
 

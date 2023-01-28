@@ -48,3 +48,24 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.9.x
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.9.x"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install poetry
+        pip install -r requirements.txt
+    - name: Poetry config
+      run: |
+        poetry config http-basic.pypi __token__ ${{ secrets.PyPi_Token }}
+    # - name: Poetry build and publish
+    #     poetry publish --build

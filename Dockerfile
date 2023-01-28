@@ -7,8 +7,8 @@ COPY requirements.txt /tmp/requirements.txt
 RUN pip install -r /tmp/requirements.txt
 
 
-WORKDIR /app
+WORKDIR /pynalytics
 
-COPY ./pynalytics /app/
+COPY ./pynalytics /pynalytics/
 
 ENTRYPOINT ["python", "main.py"]

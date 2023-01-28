@@ -2,7 +2,7 @@ import os
 
 class ParserBase():
     
-    def __init__(self, filepath = 'src/yamls/config.yaml'):
+    def __init__(self, filepath = 'pynalytics/yamls/config.yaml'):
         self.filepath = filepath
     
     def _try_get(self, variable: dict, field, error_msg=None):

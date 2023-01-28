@@ -7,6 +7,7 @@ services:
     container_name: mongo_db
     env_file:
       - metabase/config/mongo_exemple.env
+    restart: always
     ports:
       - "27017:27017"
     volumes:
@@ -15,11 +16,11 @@ services:
   postgres:
     image: postgres:alpine3.17
     container_name: postgres
-    restart: always
     ports:
       - "5432:5432"
     env_file:
       - metabase/config/postgres_exemple.env
+    restart: always
     volumes:
       - ./data/postgres:/var/lib/postgresql/data
   
@@ -28,6 +29,7 @@ services:
     container_name: metabase
     env_file:
       - metabase/config/metabase_database_exemple.env
+    restart: always
     ports:
       - "3000:3000"
     volumes:

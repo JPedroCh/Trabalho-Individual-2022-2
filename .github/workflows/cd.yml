@@ -1,0 +1,43 @@
+name: Continuous Deploy
+
+on:
+  push:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+
+  deploy:
+
+    runs-on: ubuntu-latest
+    # needs: [lint, test, build]
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.9.16
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.9.16"
+        cache: 'pip'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        sudo apt-get install doxygen -y
+        sudo apt-get install python3-sphinx
+        pip install breathe
+        pip install poetry
+    - name: Doxygen
+      run: |
+        doxygen
+    - name: Run sphinx-build
+      run: |
+        sphinx-build -b html docs/source docs/build
+    - name: Poetry config
+      run: |
+        poetry config http-basic.pypi __token__ ${{ secrets.PyPi_Token }}
+    - name: Poetry publish
+      run: |
+        poetry publish --build

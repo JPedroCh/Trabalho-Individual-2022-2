@@ -34,14 +34,6 @@ services:
       - "3000:3000"
     volumes:
       - ./data/metabase:/data
-  
-  app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: pynalytics
-    volumes:
-      - ./pynalytics:/app/
 
 networks:
   default:

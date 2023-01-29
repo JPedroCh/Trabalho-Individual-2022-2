@@ -10,5 +10,3 @@ RUN pip install -r /tmp/requirements.txt
 WORKDIR /pynalytics
 
 COPY ./pynalytics /pynalytics/
-
-ENTRYPOINT ["python", "main.py"]

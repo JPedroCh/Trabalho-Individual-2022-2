@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pynalytics"
-version = "1.0.0a0"
+version = "1.0.1a0"
 description = "This is a lib from developed for the individual work related to the Software Evolution and Configuration Management subject from UnB - Universidade de Brasília during the 2022.2 semester"
 authors = ["João Pedro Chaves <joaopedroaschaves@gmail.com>"]
 readme = "README.md"
